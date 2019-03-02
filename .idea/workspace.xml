@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18313b4d-b7cb-48b3-80f1-0159878857bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/FirstThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/dao/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/service/AuthenticationEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/dao/OrdersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/dao/WalletDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/model/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/model/Wallets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/service/WalletService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/itacademy/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/itacademy/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kg/itacademy/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kg/itacademy/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kg/itacademy/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kg/itacademy/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kg/itacademy/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kg/itacademy/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kg/itacademy/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kg/itacademy/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itacademy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kg/itacademy/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kg/itacademy/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kg/itacademy/service/UserService.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,23 +63,49 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-930103616">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="6" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/dao/WalletDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" selection-end-line="1" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/model/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/dao/OrdersDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,50 +114,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/model/Orders.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/dao/CategoryDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
-                <element signature="e#1372#1373#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/model/Wallets.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/service/CategoryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/model/Category.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/service/WalletService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,7 +148,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="136">
               <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,23 +157,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/FirstThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" selection-start-line="2" selection-end-line="8" />
-              <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/service/AuthenticationEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="102">
               <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -216,6 +203,12 @@
         <option value="$PROJECT_DIR$/src/main/java/kg/itacademy/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/kg/itacademy/dao/CategoryDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/kg/itacademy/FirstThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kg/itacademy/dao/WalletDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kg/itacademy/dao/OrdersDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kg/itacademy/model/Orders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kg/itacademy/model/Wallets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kg/itacademy/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kg/itacademy/service/WalletService.java" />
       </list>
     </option>
   </component>
@@ -237,51 +230,76 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="itacademy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="itacademy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="itacademy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itacademy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="itacademy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="itacademy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="itacademy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="itacademy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="itacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="itacademy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="itacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="webservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservices" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -291,14 +309,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551530353228" />
-    <property name="last_opened_file_path" value="D:/HW JAVA/!Hw/New folder/ItAcademy/ItAcademy" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551532347011" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kg.itacademy.service" />
+      <recent name="kg.itacademy.model" />
+      <recent name="kg.itacademy.dao" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -314,7 +341,7 @@
   </component>
   <component name="RunManager">
     <configuration name="ws" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
-      <option name="DOC_BASE" value="C:\Users\hatik\Desktop\Java\cports-x64\itacademy\src\main\webapp" />
+      <option name="DOC_BASE" value="E:\Астан\JavaProjects\WebService\webservices\src\main\webapp" />
       <option name="CONTEXT_PATH" value="/itacademy" />
       <option name="TOMCAT_PORT" value="8080" />
       <option name="AJP_PORT" value="8009" />
@@ -340,9 +367,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="814" height="877" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1724138" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17473525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -351,7 +378,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2925532" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2923077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,23 +403,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/model/sc.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/dao.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2133">
-          <caret line="79" column="22" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/FirstThread.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="17">
           <caret line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
+        <state relative-caret-position="442">
           <caret line="33" column="29" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -402,7 +423,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="255">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -414,7 +435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/dao/CategoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="255">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -426,7 +447,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/service/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="204">
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -436,7 +457,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/model/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="204">
           <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -447,19 +468,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/service/AuthenticationEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="136">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -467,14 +478,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/FirstThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/service/AuthenticationEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="8" />
+        <state relative-caret-position="102">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/model/Orders.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/model/Wallets.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/service/WalletService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/dao/OrdersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kg/itacademy/dao/WalletDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
         </state>
       </provider>
     </entry>
